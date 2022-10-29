@@ -1,0 +1,227 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+p{
+  color: #1B1C1E;
+}
+
+hr{
+  border-top: 2px dashed #16213E;
+  
+}
+.h2-race{
+  color: #FFFAF0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+
+.p-race{
+  color: #FFFAF0;
+}
+
+/*Headers*/
+.big-heading{
+  text-align: center;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.small-heading{
+  text-align: center;
+  color: #FFFAF0;
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/*Section*/
+.popular-section{
+  background-color: #FFFAF0;
+  text-align: center;
+  padding: 100px;
+  padding-left: 450px;
+  padding-right: 450px;
+  margin: auto;
+  width: 100%;
+
+}
+
+.colored-section{
+  background-color: #16213E;
+  color: #FFFAF0;
+}
+.race-section{
+  background-color: #16213E;
+  text-align: center;
+  padding: 100px;
+  padding-left: 450px;
+  padding-right: 450px;
+  margin: auto;
+  width: 100%;
+}
+.points-section{
+  background-color: #16213E;
+  text-align: center;
+  padding: 100px;
+  padding-left: 450px;
+  padding-right: 450px;
+  margin: auto;
+  width: 100%;
+}
+.white-section{
+  background-color: #FFFAF0;
+  text-align: center;
+}
+
+/*Navigation Bar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  color: #FFFAF0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/*Title Section*/
+title{
+  text-align: left;
+}
+title .container-fluid{
+  padding: 15% 15% 7%;
+}
+.title-img{
+  width: 90%;
+  position: relative;
+  right: 5%;
+}
+
+
+/*Features*/
+#features{
+  padding: 5% 20% 2% 20%;
+  text-align: center;
+  position: relative;
+  background-color: #FFFAF0;
+}
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.features-col{
+  padding: 5%;
+  text-align: center;
+}
+
+.features-icon{
+  color: #ff7500;
+  margin: 1rem;
+}
+
+.features-icon:hover{
+  color: #ff2000;
+}
+
+.Conimg{
+  width: 4rem;
+  float: right;
+}
+
+.Drivertb{
+  margin: auto;
+  width: 10%;
+  border: 4px solid;
+  text-align: left;
+}
+
+
+.Pinfo{ 
+  float: left;
+  width: 5rem;
+  margin: 1rem;
+  border: 1px solid;
+}
+
+.Perma-num{
+  width: 5rem%;
+  color: #FFFAF0;
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.darken{
+  background-color: #16213E;
+}
+
+.layt{
+  padding-top: 1rem;
+  padding-left:1.8rem;
+  color: #FFFAF0;
+}
+
+.Driverimg{
+  width: 8.6rem;
+
+}
+
+.Carimg{
+  width: 35rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.LearnM{
+  padding-top: 15rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  color: gray;
+}
+
+/*Footer*/
+.foot-icon{
+  padding: 20px 10px;
+}
+
+
+
+
+@media (max-width: 1020px){
+  title{
+    text-align: center;
+  }
+
+  .title-img{
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+  }
+}
